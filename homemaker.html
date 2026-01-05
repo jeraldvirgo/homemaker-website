@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Home Makers | Connecting Locals</title>
+
+  <style>
+    :root {
+      --primary: #d62d20;
+      --accent: #ffcc33;
+      --secondary: #fff5ef;
+      --dark: #2b2b2b;
+      --light: #666;
+      --white: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+
+    body {
+      background-color: var(--secondary);
+      color: var(--dark);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--primary);
+      padding: 16px 40px;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    header img {
+      height: 50px;
+    }
+
+    header h1 {
+      color: var(--white);
+      font-size: 26px;
+    }
+
+    section {
+      padding: 60px 40px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      color: var(--primary);
+      margin-bottom: 15px;
+      font-size: 28px;
+    }
+
+    p {
+      margin-bottom: 15px;
+      color: var(--light);
+      font-size: 16px;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #ffe2d8, #fff);
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero img {
+      width: 120px;
+      margin-bottom: 20px;
+    }
+
+    .hero h2 {
+      font-size: 38px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: var(--white);
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+    }
+
+    .card h3 {
+      color: var(--primary);
+      margin-bottom: 10px;
+    }
+
+    .highlight {
+      background: var(--white);
+      border-left: 6px solid var(--accent);
+      padding: 25px;
+      border-radius: 8px;
+    }
+
+    .cta {
+      background: var(--primary);
+      color: var(--white);
+      text-align: center;
+      padding: 70px 20px;
+    }
+
+    .cta p {
+      color: #ffe6da;
+    }
+
+    .cta button {
+      background: var(--accent);
+      border: none;
+      padding: 14px 28px;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    footer {
+      background: #1f1f1f;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <img src="the_home_makers_logo_1024.png" alt="The Home Makers Logo">
+  <h1>The Home Makers</h1>
+</header>
+
+<section class="hero">
+  <img src="the_home_makers_logo_1024.png" alt="The Home Makers">
+  <h2>Connecting Locals Through Homemade Goodness</h2>
+  <p>
+    A hyperlocal, community-first platform empowering homemakers to turn
+    home-cooked food and handmade products into sustainable livelihoods.
+  </p>
+</section>
+
+<section>
+  <h2>Why The Home Makers?</h2>
+  <div class="highlight">
+    <p>
+      We believe trust begins at home. The Home Makers brings neighborhood commerce
+      into the digital world — without losing warmth, familiarity, or human connection.
+    </p>
+  </div>
+</section>
+
+<section>
+  <h2>How It Works</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Create Your Profile</h3>
+      <p>Homemakers register, verify their details, and showcase what they love to make.</p>
+    </div>
+    <div class="card">
+      <h3>List & Set Availability</h3>
+      <p>Control pricing, daily availability, and quantity at your own pace.</p>
+    </div>
+    <div class="card">
+      <h3>Discover Locally</h3>
+      <p>Buyers browse verified sellers within their society or nearby localities.</p>
+    </div>
+    <div class="card">
+      <h3>Connect & Order</h3>
+      <p>Direct connection ensures transparency, trust, and community bonding.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Built on Trust & Verification</h2>
+  <p>
+    Every seller is verified through locality and profile checks. Buyers know exactly
+    who they are buying from — a neighbor, not a faceless kitchen.
+  </p>
+</section>
+
+<section>
+  <h2>Sustainability & Community Impact</h2>
+  <p>
+    By keeping commerce local, The Home Makers reduces food waste, minimizes logistics,
+    and strengthens neighborhood economies — one home at a time.
+  </p>
+</section>
+
+<section>
+  <h2>Future Roadmap</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Online Ordering</h3>
+      <p>Seamless in-app ordering experience.</p>
+    </div>
+    <div class="card">
+      <h3>Digital Payments</h3>
+      <p>Secure UPI and wallet integrations.</p>
+    </div>
+    <div class="card">
+      <h3>Ratings & Reviews</h3>
+      <p>Build reputation within your community.</p>
+    </div>
+    <div class="card">
+      <h3>Mobile Apps</h3>
+      <p>Android & iOS apps for sellers and buyers.</p>
+    </div>
+  </div>
+</section>
+
+<div class="cta">
+  <h2>Be Part of the Local Movement</h2>
+  <p>From your kitchen to your community.</p>
+  <button>Launching Soon</button>
+</div>
+
+<footer>
+  © 2026 The Home Makers · Connecting Locals · Built with Community at Heart
+</footer>
+
+</body>
+</html>
